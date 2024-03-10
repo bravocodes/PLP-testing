@@ -1,7 +1,14 @@
 mylist=[]
-mylist.append(10,20,30,40)
+mylist.append(10)
+mylist.append(20)
+mylist.append(30)
+mylist.append(40)
 mylist.insert(2,15)
 print(mylist)
 list2=[50,60,70]
 mylist.extend(list2)
-remove.mylist(70)
+mylist.remove(70)
+mylist.sort()
+index=mylist.index(30)
+print(mylist)
+print(index)
