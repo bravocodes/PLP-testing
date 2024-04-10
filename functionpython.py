@@ -1,9 +1,13 @@
-def calculate_discount(price,discount_price):
-    if discount_price >=20:
-        discounted_price=(price*80/100)
-        print(discounted_price)
-    else:
-        print(price)
-original_price=float(input("Enter original price:"))
-discount_percentage=float(input("Enter discount_percentage:"))
-final_price=calculate_discount(original_price,discount_percentage)
+class Person:
+    def __init__(self,name,age,gender):
+        self.name=name
+        self.age=age
+        self.gender=gender
+        
+    def introduce(self):
+            print(f"Hello! My name is {self.name}. I am {self.age} years old and identify as {self.gender}.")
+            
+person1=Person("Lydiah", 19,"Female")
+
+person1.introduce()            
+            
